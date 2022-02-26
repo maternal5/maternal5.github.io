@@ -34,33 +34,9 @@ body {
 
 .caballito {
 	position: center;
-	animation: hamacar;
-	animation-duration: 18s;
-	animation-timing-function: linear;
-	animation-direction: normal;
-	animation-iteration-count: infinite;
-	transform-origin: center bottom;
 	filter: drop-shadow(40px 10px 15px #777);
 	z-index: 15
 
 }
 
 
-@keyframes hamacar {
-	0% { 
-		transform: rotate(0deg);
-	 }
-
-	 25% { 
-		transform: rotate(-12deg);
-	 }
-
-
-	75% { 
-		transform: rotate(12deg);
-	 }
-
-	100% {
-		transform: rotate(0deg);
-	}
-}
