@@ -1,0 +1,66 @@
+*{
+	font-family: 'Fredoka One', cursive;
+	font-weight: 100; 
+	font-size: 20px;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+.contenedor {
+	padding: 50px 100px;
+	margin 100px auto;
+	display: block;
+	text-align: center;
+	color: #14338b;
+	text-shadow: 20px 10px 15px #444;
+	background: url(cuadrille.jpg);
+	background-repeat: repeat; 
+	height: 100%;
+
+}
+
+.texto {
+	margin: 20px;
+	z-index: 20;
+	font-size: 50px;
+
+
+
+
+}
+
+.caballito {
+	position: center;
+	animation: hamacar;
+	animation-duration: 18s;
+	animation-timing-function: linear;
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+	transform-origin: center bottom;
+	filter: drop-shadow(40px 10px 15px #777);
+	z-index: 15
+
+}
+
+
+@keyframes hamacar {
+	0% { 
+		transform: rotate(0deg);
+	 }
+
+	 25% { 
+		transform: rotate(-12deg);
+	 }
+
+
+	75% { 
+		transform: rotate(12deg);
+	 }
+
+	100% {
+		transform: rotate(0deg);
+	}
+}
